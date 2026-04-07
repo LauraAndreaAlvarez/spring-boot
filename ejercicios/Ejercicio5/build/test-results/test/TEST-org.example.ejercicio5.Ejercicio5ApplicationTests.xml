@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.ejercicio5.Ejercicio5ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-07T09:57:58.805Z" hostname="LAURA" time="2.592">
+  <properties/>
+  <testcase name="contextLoads()" classname="org.example.ejercicio5.Ejercicio5ApplicationTests" time="0.694"/>
+  <system-out><![CDATA[11:57:59.006 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.ejercicio5.Ejercicio5ApplicationTests]: Ejercicio5ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:57:59.114 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.ejercicio5.Ejercicio5Application for test class org.example.ejercicio5.Ejercicio5ApplicationTests
+11:57:59.212 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.ejercicio5.Ejercicio5ApplicationTests]: Ejercicio5ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:57:59.213 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.ejercicio5.Ejercicio5Application for test class org.example.ejercicio5.Ejercicio5ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.4)
+
+2026-04-07T11:57:59.557+02:00  INFO 27444 --- [Ejercicio5] [    Test worker] o.e.e.Ejercicio5ApplicationTests         : Starting Ejercicio5ApplicationTests using Java 17.0.12 with PID 27444 (started by laura in C:\Users\laura\Downloads\demo\ejercicioSpringBoot\Ejercicio5)
+2026-04-07T11:57:59.561+02:00  INFO 27444 --- [Ejercicio5] [    Test worker] o.e.e.Ejercicio5ApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2026-04-07T11:58:00.560+02:00  WARN 27444 --- [Ejercicio5] [    Test worker] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-04-07T11:58:00.688+02:00  INFO 27444 --- [Ejercicio5] [    Test worker] o.e.e.Ejercicio5ApplicationTests         : Started Ejercicio5ApplicationTests in 1.407 seconds (process running for 2.821)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

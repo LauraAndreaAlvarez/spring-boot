@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.ejercicio3.Ejercicio3ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-07T07:23:55.178Z" hostname="LAURA" time="1.69">
+  <properties/>
+  <testcase name="contextLoads()" classname="org.example.ejercicio3.Ejercicio3ApplicationTests" time="0.613"/>
+  <system-out><![CDATA[09:23:55.353 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.ejercicio3.Ejercicio3ApplicationTests]: Ejercicio3ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:23:55.449 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.ejercicio3.Ejercicio3Application for test class org.example.ejercicio3.Ejercicio3ApplicationTests
+09:23:55.539 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.ejercicio3.Ejercicio3ApplicationTests]: Ejercicio3ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:23:55.539 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.ejercicio3.Ejercicio3Application for test class org.example.ejercicio3.Ejercicio3ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.4)
+
+2026-04-07T09:23:55.836+02:00  INFO 16764 --- [Ejercicio3] [    Test worker] o.e.e.Ejercicio3ApplicationTests         : Starting Ejercicio3ApplicationTests using Java 17.0.12 with PID 16764 (started by laura in C:\Users\laura\Downloads\demo\ejercicioSpringBoot\Ejercicio3)
+2026-04-07T09:23:55.836+02:00  INFO 16764 --- [Ejercicio3] [    Test worker] o.e.e.Ejercicio3ApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2026-04-07T09:23:56.238+02:00  INFO 16764 --- [Ejercicio3] [    Test worker] o.e.e.Ejercicio3ApplicationTests         : Started Ejercicio3ApplicationTests in 0.646 seconds (process running for 2.019)
+Hola desde la clase: org.example.ejercicio3.ProcesoA
+Hola desde la clase: org.example.ejercicio3.ProcesoC
+]]></system-out>
+  <system-err><![CDATA[Hola desde la clase: org.example.ejercicio3.ProcesoB
+]]></system-err>
+</testsuite>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 06</title>
+    <style>
+        .verde { color: green; font-weight: bold; }
+        .naranja { color: orange; font-weight: bold; }
+        .rojo { color: red; font-weight: bold; }
+        table { border-collapse: collapse; width: 100%; text-align: center; }
+        td, th { border: 1px solid #ccc; padding: 15px; }
+    </style>
+</head>
+<body>
+<h1>Predicción para los próximos 7 días</h1>
+<table>
+    <tr>
+        <th th:each="p : ${semana}" th:text="${p.fecha}"></th>
+    </tr>
+    <tr>
+        <td th:each="p : ${semana}">
+            <img th:if="${p.probabilidad < 25}" src="https://www.aemet.es/imagenes/png/estado_cielo/11_g.png">
+            <img th:if="${p.probabilidad >= 25 && p.probabilidad < 50}" src="https://www.aemet.es/imagenes/png/estado_cielo/12_g.png">
+            <img th:if="${p.probabilidad >= 50 && p.probabilidad < 75}" src="https://www.aemet.es/imagenes/png/estado_cielo/14_g.png">
+            <img th:if="${p.probabilidad >= 75}" src="https://www.aemet.es/imagenes/png/estado_cielo/25_g.png">
+            <br/>
+            <span th:text="${p.probabilidad} + '%'"></span>
+        </td>
+    </tr>
+    <tr>
+        <td th:each="p : ${semana}">
+            <span style="color: blue" th:text="${p.tMin}"></span>° /
+            <span style="color: red" th:text="${p.tMax}"></span>°
+        </td>
+    </tr>
+    <tr>
+        <td th:each="p : ${semana}"
+            th:class="${p.uv <= 1 ? 'verde' : (p.uv <= 3 ? 'naranja' : 'rojo')}">
+            UV: <span th:text="${p.uv}"></span>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

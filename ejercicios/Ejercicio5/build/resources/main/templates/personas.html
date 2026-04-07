@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<h1>Listado de 10 Personas</h1>
+<table border="1">
+    <tr>
+        <th>Nombre</th><th>Apellidos</th><th>DNI</th><th>Edad</th>
+    </tr>
+    <tr th:each="p : ${personas}">
+        <td th:text="${p.nombre}"></td>
+        <td th:text="${p.apellidos}"></td>
+        <td th:text="${p.dni}"></td>
+        <td th:text="${p.getEdad()}"></td>
+    </tr>
+</table>
+</body>
+</html>

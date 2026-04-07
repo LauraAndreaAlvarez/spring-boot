@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.ejercicio4.Ejercicio4ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-07T07:49:35.889Z" hostname="LAURA" time="2.007">
+  <properties/>
+  <testcase name="contextLoads()" classname="org.example.ejercicio4.Ejercicio4ApplicationTests" time="0.678"/>
+  <system-out><![CDATA[09:49:36.068 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.ejercicio4.Ejercicio4ApplicationTests]: Ejercicio4ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:49:36.159 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.ejercicio4.Ejercicio4Application for test class org.example.ejercicio4.Ejercicio4ApplicationTests
+09:49:36.245 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.ejercicio4.Ejercicio4ApplicationTests]: Ejercicio4ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:49:36.245 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.ejercicio4.Ejercicio4Application for test class org.example.ejercicio4.Ejercicio4ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.4)
+
+2026-04-07T09:49:36.576+02:00  INFO 17640 --- [Ejercicio4] [    Test worker] o.e.e.Ejercicio4ApplicationTests         : Starting Ejercicio4ApplicationTests using Java 17.0.12 with PID 17640 (started by laura in C:\Users\laura\Downloads\demo\ejercicioSpringBoot\Ejercicio4)
+2026-04-07T09:49:36.576+02:00  INFO 17640 --- [Ejercicio4] [    Test worker] o.e.e.Ejercicio4ApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2026-04-07T09:49:37.122+02:00  INFO 17640 --- [Ejercicio4] [    Test worker] o.e.e.Ejercicio4ApplicationTests         : Started Ejercicio4ApplicationTests in 0.806 seconds (process running for 2.152)
+Clase: org.example.ejercicio4.ProcesoA - Frase: Hey, McFly! I thought I told you never to come in here.
+Clase: org.example.ejercicio4.ProcesoC - Frase: Some old wounds never truly heal, and bleed again at the slightest word.
+]]></system-out>
+  <system-err><![CDATA[Clase: org.example.ejercicio4.ProcesoB - Frase: Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors.
+]]></system-err>
+</testsuite>
