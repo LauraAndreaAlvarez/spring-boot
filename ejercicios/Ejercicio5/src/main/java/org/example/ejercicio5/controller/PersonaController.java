@@ -21,7 +21,7 @@ public class PersonaController {
         return "personas";
     }
 
-    @GetMapping("/personas/uno")
+    @GetMapping("/personas/una")
     public String una(Model model) {
         model.addAttribute("p", personaService.findOne());
         return "persona-uno";
